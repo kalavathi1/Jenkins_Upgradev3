@@ -17,6 +17,12 @@
   </properties>
 
   <distributionManagement>
+            <repository>
+	                <id>Release</id>
+	                <name>jpetrepo</name>
+	                <url>http://http://40.121.157.127:8081//repository/maven-snapshots/</url>
+              </repository>
+
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
