@@ -17,7 +17,14 @@
   </properties>
 
   <distributionManagement>
-    <site>
+      <repository>
+     <id>Release</id>
+       <name>Maven_repo1</name>
+        <url>http://40.121.157.127:8081/repository/Maven_repo1/</url>
+       </repository>
+
+    
+      site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/single-module-site</url>
